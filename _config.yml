@@ -18,14 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: DasCrypto.farm
-email: joshua@dascrypto.farm
-description: >- # this means to ignore newlines until "baseurl:"
+title: DasCrypto
+description: >-
     DasCrypto Mining Pool
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dascrypto.farm" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username:
+
+baseurl: ""
+url: "https://dascrypto.farm"
 
 # Build settings
 plugins:
@@ -56,3 +54,8 @@ plugins:
 
 paginate: 5
 paginate_path: "/blog/:num/"
+
+social:
+    name: Joshua Estes
+    links:
+        - https://github.com/JEstesMining
